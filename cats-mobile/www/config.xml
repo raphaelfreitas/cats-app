@@ -22,6 +22,21 @@
     -->
     <feature name="http://api.phonegap.com/1.0/device" />
 
+    <feature name="SocialSharing">
+      <param name="ios-package" value="SocialSharing" />
+    </feature>
+
+    <!-- for Windows Phone -->
+    <feature name="SocialSharing">
+      <param name="wp-package" value="SocialSharing"/>
+    </feature>
+
+    <feature name="SocialSharing">
+      <param name="android-package" value="nl.xservices.plugins.SocialSharing" />
+    </feature>
+
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+
     <!--
         If you do not want any permissions to be added to your app, add the
         following tag to your config.xml; you will still have the INTERNET
@@ -84,6 +99,8 @@
     <param name="APP_ID" value="1410411025876223" />
     <param name="APP_NAME" value="Ernandes Ferreira" />
     </gap:plugin>
+
+    <gap:plugin name="nl.x-services.plugins.socialsharing" />
 
     <!--
         Define access to external domains.

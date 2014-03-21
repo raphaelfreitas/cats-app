@@ -52,6 +52,3 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#a90329', end
     border: 1px solid #FFF;
     cursor: pointer;
 }
-.btn:hover{
-    background-color: red;
-}

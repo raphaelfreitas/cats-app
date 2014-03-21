@@ -35,8 +35,7 @@
       <param name="android-package" value="nl.xservices.plugins.SocialSharing" />
     </feature>
 
-    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
-
+    
     <!--
         If you do not want any permissions to be added to your app, add the
         following tag to your config.xml; you will still have the INTERNET

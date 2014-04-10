@@ -6,7 +6,6 @@
         id        = "com.phonegap.cats-app"
         version   = "1.0.0">
 
-        <application android:debuggable="false"></application>
 
     <name>Cat's App</name>
 

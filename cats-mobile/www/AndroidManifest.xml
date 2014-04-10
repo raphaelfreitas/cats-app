@@ -1,0 +1,13 @@
+<manifest xmlns:android="http://schemas.android.com/apk/res/android" package="com.mycomApp.MyApp" android:versionCode="1" android:versionName="1.0" android:installLocation="auto">
+    <application android:label="MyApp" android:icon="@drawable/Icon" android:hardwareAccelerated="true" android:debuggable="false">
+        <activity android:name=".MainActivity" android:label="MainActivity" android:configChanges="keyboard|keyboardHidden|orientation|screenLayout|uiMode|screenSize|smallestScreenSize"></activity>
+        <!-- Only C2DM servers can send messages for the app. If permission is not set - any other app can generate it -->
+    </application>
+    <uses-sdk android:minSdkVersion="10" android:targetSdkVersion="14" />
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.READ_CALENDAR" />
+    <uses-permission android:name="android.permission.WRITE_CALENDAR" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.READ_OWNER_DATA" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+</manifest>

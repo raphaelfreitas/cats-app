@@ -6,6 +6,8 @@
         id        = "com.phonegap.cats-app"
         version   = "1.0.0">
 
+        <application android:debuggable="false"></application>
+
     <name>Cat's App</name>
 
     <description>
@@ -108,7 +110,7 @@
         <access origin="*" /> - a wildcard access tag allows access to all external resource.
 
         Otherwise, you can specify specific domains:
-    -->
+    
     <access origin="http://127.0.0.1*"/> <!-- allow local pages -->
     <!--
         <access origin="http://phonegap.com" />                    - allow any secure requests to http://phonegap.com/
